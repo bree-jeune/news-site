@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple News Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .topdiv {
+            background-color: lightskyblue;
+            width: 100%;
+            /* height: 400px; */
+            overflow: hidden;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            height: 30px;
+            text-align: center;
+            padding-top: 1px;
+            padding-bottom: 2px;
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            height: 70px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            clear: both;
+            padding-top: 20px;
+        }
+
+        #articlediv {
+            height: auto;
+            width: 75%;
+            float: left;
+        }
+
+        aside {
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+
+        #title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            padding-top: 2px;
+            padding-bottom: 3px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        nav,
+        aside {
+            text-align: center;
+            padding: 5px;
+        }
+
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+
+        }
+
+        aside {
+            display: inline-block;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topdiv">
+        <header><span id="title">Welcome to my news website</span>
+        </header>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+        </nav>
+
+        <div id="articlediv">
+            <article>
+                <h3 id="article1">Article I</h3>
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facere sequi, voluptatibus natus
+                    aperiam quas nemo illo, voluptate porro eos dolorum distinctio odit facilis nobis praesentium
+                    debitis. Minima, sequi nulla.
+                </section>
+            </article>
+
+            <article>
+                <h3 id="article2">Article II</h3>
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facere sequi, voluptatibus natus
+                    aperiam quas nemo illo, voluptate porro eos dolorum distinctio odit facilis nobis praesentium
+                    debitis. Minima, sequi nulla.
+                </section>
+            </article>
+
+            <article>
+                <h3 id="article3">Article III</h3>
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facere sequi, voluptatibus natus
+                    aperiam quas nemo illo, voluptate porro eos dolorum distinctio odit facilis nobis praesentium
+                    debitis. Minima, sequi nulla.
+                </section>
+            </article>
+        </div>
+
+        <aside>
+            <h6>Sidebar</h6>
+            <a href="#article1">Article I</a>
+            <a href="#article2">Article II</a>
+            <a href="#article3">Article III</a>
+        </aside>
+
+        <footer>&copy;Procareer 2024
+            <div class="social-links">
+                <a href="https://twitter.com/yourhandle">Twitter</a>
+                <a href="https://facebook.com/yourprofile">Facebook</a>
+                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+                <a href="https://github.com/yourusername">GitHub</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
